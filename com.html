@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cơm gạo lứt hấp lá sen         </title><style>
+        
+        #header img {
+            height:300px;
+            width:30%;
+            float:left;
+            display: flow-root;
+        }
+        #header h1 {
+            color: white;
+            font-size: 2vw;
+            font-size: 70px;
+            margin-top: 90px;
+            vertical-align: middle;
+        }
+        #header {
+              background: linear-gradient(-45deg, #0ef412, #e73c7e, #23a6d5, #23d5ab);
+              background-size: 400% 400%;
+              animation: gradient 10s ease infinite;
+              height:300px;
+              width: 100%;
+              display: flow-root;
+        }
+
+        @keyframes gradient { 
+           0% {
+              background-position: 0% 50%;
+                  }
+           50% {
+               background-position: 100% 50%;
+             }
+            100% {
+                background-position: 0% 50%;
+             }
+       }
+       body {
+        background-color: #e2f5e2;
+       }
+       @keyframes jump {
+           0% {
+           transform: translateY(0);
+             }
+           50% {
+              transform: translateY(-20px);
+             }
+           100% {
+           transform: translateY(0);
+          }
+       }
+
+        .text span {
+           display: inline-block;
+           animation: jump 1s infinite alternate; /* Hiệu ứng nhảy ngược và chuyển động lặp lại */
+        }
+
+       .text span {
+        font-size: 40px;
+        
+        color: #db4f09;
+       }
+       .image {
+        border-radius: 30%;
+        
+       }
+
+       #gioithieu  {
+        display: inline-flex; 
+        align-items: center; 
+       }
+       #gioithieu img {
+        margin-right: 10px;
+       }
+       #gioithieu p {
+        font-size: 25px;
+       }
+       #nguyenlieu p {
+        font-size: 25px;
+       }
+       #chebien p{
+        font-size: 25px;
+       }
+
+       #footer {
+        font-size: 25px;
+        color: rgb(16, 33, 215);
+        text-align: center;
+       }
+       @keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.blink {
+  animation: blink 2s linear infinite;
+}
+
+       
+
+       
+
+    </style>
+</head>
+<body>
+    <div id="header" align="center">
+        <img src="data:image/jpeg;base64,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">
+        <h1> Cách chế biến món " Cơm gạo lứt hấp lá sen   " </h1>
+    </div>
+    <div class="text">
+        <span>GIỚI THIỆU VỀ MÓN ĂN</span>
+        </div>
+        <div id="gioithieu">
+            <img src="https://cdn.tgdd.vn/2021/04/CookRecipe/Avatar/com-gao-lut-hap-la-sen-thumbnail.jpg" class="image" alt="Your Image" width="30%">
+            <p>
+                
+Cơm gạo lứt hấp lá sen là một món ăn truyền thống của vùng đồng bằng sông Cửu Long, nổi tiếng với hương vị đặc trưng và cách chế biến độc đáo. Để chuẩn bị món này, người ta sử dụng gạo lứt - gạo đã lột vỏ nhưng vẫn giữ nguyên lớp cám bên ngoài, giữ lại hương vị tự nhiên và dinh dưỡng của hạt gạo.
+
+Quá trình nấu cơm gạo lứt hấp lá sen không chỉ đơn giản là việc nấu cơm thông thường mà còn là một nghệ thuật. Gạo lứt được đặt trong lá sen, một loại lá tự nhiên với hương thơm dịu nhẹ, và sau đó hấp chín trên lửa than hoặc bếp hơi. Lá sen không chỉ tạo ra một hương vị đặc biệt cho cơm mà còn giữ cho cơm được ngấm đủ hương vị và dinh dưỡng từ lá. Khi thưởng thức, mỗi hạt cơm thơm phức của gạo lứt kết hợp với hương vị tinh tế của lá sen, tạo nên một trải nghiệm ẩm thực đầy hấp dẫn và đặc biệt.
+            </p>
+        </div>
+        <div class="text">
+            <span>NGUYÊN LIỆU</span>
+            </div>
+        <div id="nguyenlieu">
+            <p>
+                - Cơm trắng 2 chén<br>
+                - Hạt sen 100 gr<br>
+                - Đùi gà phi lê 150 gr<br>
+                - Tôm 100 gr<br>
+                - Nấm đông cô khô 4 cái<br>
+                - Đậu hà lan 50 gr<br>
+                - Cà rốt 2 củ<br>
+                - Lá sen 1 ít<br>
+                - Hành tím 3 củ (băm nhỏ)<br>
+                - Nước tương 1/2 muỗng canh<br>
+                - Hạt nêm 1 muỗng cà phê<br>
+                - Dầu ăn 30 ml<br>
+            </p>
+        </div>
+        <div class="text" align="center">
+            <span >CÁCH CHẾ BIẾN</span>
+        
+            </div>
+            <div id="chebien">
+                <p>
+                <i><b>Bước 1:Sơ chế nguyên liệu</b></i>  <br>  
+                -Thịt gà lóc xương mua về rửa sạch, xắt thành miếng vuông nhỏ vừa ăn.<br>
+                -Tôm bóc vỏ, rửa sạch, xắt nhỏ.<br>
+                -Nấm đông cô khô mua về ngâm nước khoảng 30 phút cho nở mềm, rửa kĩ nhiều lần cho sạch bụi bẩn, xắt hạt lựu.<br>
+                -Luộc chín đậu hà lan. Cà rốt bào bỏ vỏ, rửa sạch, xắt hạt lựu.<br>
+                -Hạt sen mua về ngâm nước muối, rửa sạch, luộc vừa chín tới, vớt ra để ráo.<br>
+                <i><b>Bước 2:
+                Xào hỗn hợp tôm thịt và trộn cơm</b></i><br>
+                -Cho vào chảo 30ml dầu lên bếp lửa lớn, phi thơm 3 củ hành tím băm nhỏ. Khi hành đã vàng thơm thì bạn cho nấm, thịt gà và tôm vào xào cùng 1/2 muỗng canh nước tương, 1 muỗng cà phê hạt nêm, hạ nhỏ lửa và đảo nhẹ 3 phút cho phần gia vị thấm vào thịt.<br>
+                -Khi thấy phần gà và tôm đã săn lại, bạn cho đậu hà lan, cà rốt và hạt sen vào xào 5 phút nữa cho chín.<br>
+                -Khi phần nguyên liệu đã chín, bạn tắt bếp, cho cơm trắng vào trộn đều.<br>
+
+                <i><b>Bước 3:Hấp cơm lá sen</b></i><br>
+                -Lá sen mua về rửa sạch bằng nước muối, lau khô. Cho lá sen vào tô, ém nhẹ cho lá trũng xuống, chú ý nhẹ tay tránh làm rách lá.<br>
+                -Múc cơm trộn vào tô, ém nhẹ cho cơm nén chặt lại đến khi đầy tô. Gấp phần lá ở viền tô vào ém chặt cơm, úp tô lên 1 cái đĩa và cho vào xửng hấp, cẩn thận nhấc tô ra.<br>
+                -Đậy vung hấp trong 15 phút. Sau 15 phút thì nhấc đĩa ra, dùng kéo cắt phần đỉnh lá sen hình chữ thập, gấp nhẹ phần bị cắt ngược ra ngoài tạo hình 1 cái tô.<br>
+
+                </p>
+
+            </div>
+            <div id="footer">
+                <p class="blink">Chúc bạn thưởng thức mỗi miếng ăn với tất cả niềm đam mê và tình yêu dành cho nấu ăn.<br>
+                    Hãy tiếp tục khám phá và sáng tạo, bởi cuộc phiêu lưu ẩm thực không bao giờ kết thúc! </p><br>
+
+                    <strong> VNFoods.</strong>
+            </div>
+
+
+        
+    
+    
+</body>
+</html>
